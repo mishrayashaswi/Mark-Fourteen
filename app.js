@@ -19,7 +19,7 @@ function calculate(initial, quantity, current) {
     var loss = (initial - current) * quantity;
     var lossPer = (loss / initial) * 100;
 
-    outputShow("Ttal loss is " + loss + "₹ and Loss percentage " + lossPer + " %");
+    outputShow("Total loss is " + loss + "₹ and Loss percentage " + lossPer + " %");
   } else if (current > initial) {
     var profit = (current - initial) * quantity;
     var profitPer = (profit / initial) * 100;
